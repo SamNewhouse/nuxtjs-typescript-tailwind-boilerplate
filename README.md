@@ -18,3 +18,15 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Production
+
+### Heroku
+
+Add these as config vars on Heroku for Nuxtjs/Vue to work.
+
+```
+HOST: 0.0.0.0
+NODE_ENV: production
+
+```
